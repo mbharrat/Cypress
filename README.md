@@ -1,3 +1,5 @@
+### more to come...
+
 # Testing with Cypress.js
 ## Install instructions
 1. install cypress in your project
@@ -18,7 +20,9 @@
 10. To Run cypress, if its not installed globally
 	- $(npm bin)/cypress open
 
+## Information about Cypress
 
+Cypress is an automated test software that uses Mocha under the hood. This means you can use describe, it, and beforeEach methods as well as all other Mocha methods!
 
 
 ## UT vs IT vs E2E

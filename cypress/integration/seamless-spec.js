@@ -33,4 +33,20 @@ describe('Check search functionality on delivery', ()=>{
 	it('Should see filters', ()=>{
 		cy.get('.facetList-content').should('be.visible');
 	});
+
+	//mobile
+	describe('check same functionality of search on 320x568 display',()=>{
+		beforeEach(()=>{
+			cy.viewport(320,568);
+		});
+
+
+		//uh-oh! fails because the layout is different on mobile! great way to debug your test cases :)
+		it('Should see filters', ()=>{
+			cy.get('.facetList-content').should('be.visible');
+		});
+
+
+
+	});
 });
