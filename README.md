@@ -54,6 +54,6 @@ Cypress is an automated test software that uses Mocha under the hood. This means
 ## Some Important Cypress Concepts
 
 ### To be added...examples to be added:
-## Hooks, stubs, 
+## Hooks, stubs, etc.
 
 
