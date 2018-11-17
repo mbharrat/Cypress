@@ -58,6 +58,25 @@ Cypress is an automated test software that uses Mocha under the hood. This means
 
 ## Some Important Cypress Concepts
 
+### Best Practices
+#### Organizing Tests, Logging In, Controlling State
+- Test specs in isolation, programmatically log into your application, and take control of your application’s state
+	- What does this mean?
+	- to be added
+### Selecting Elements
+- use data-* attributes to provide context to your selectors and insulate them from CSS or JS changes
+	- What does this mean?
+	- avoid using selectors that could change
+	'''html
+	<button id="main" class="btn btn-large" data-cy="submit">Submit</button>
+	'''
+	| Selector      | Recommended |   Notes |
+	| ------------- |:-------------:| -----:|
+	| cy.get('button').click()      | Never | Too generic |
+	| col 2 is      | centered      |   $12 |
+	| zebra stripes | are neat      |    $1 |
+
+
 ### To be added...examples to be added:
 ## Hooks, stubs, etc.
 
