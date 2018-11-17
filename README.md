@@ -67,7 +67,7 @@ Cypress is an automated test software that uses Mocha under the hood. This means
 - use data-* attributes to provide context to your selectors and insulate them from CSS or JS changes
 	- What does this mean?
 	- avoid using selectors that could change
-	- '''html
+	- '''javascript
 	<button id="main" class="btn btn-large" data-cy="submit">Submit</button>
 	'''
 
