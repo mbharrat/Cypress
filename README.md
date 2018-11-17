@@ -18,6 +18,7 @@
 ....
 10. To Run cypress, if its not installed globally
 	- $(npm bin)/cypress open
+	- npx cypress open
 
 ## Information about Cypress
 
