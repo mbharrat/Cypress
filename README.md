@@ -70,9 +70,9 @@ Cypress is an automated test software that uses Mocha under the hood. This means
 	- '''javascript
 	<button id="main" class="btn btn-large" data-cy="submit">Submit</button>
 	'''
-| test table | description |
-| --- | --- |
-| does this work | description test |
+> | test table | description |
+> | --- | --- |
+> | does this work | description test |
 
 
 ### To be added...examples to be added:
