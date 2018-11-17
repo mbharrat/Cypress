@@ -31,7 +31,12 @@ Cypress is an automated test software that uses Mocha under the hood. This means
 	- an example is testing that the add functions actually adds
 	- in terms of Cypress you can test JUST the search function of a page
 ### IT
-
+- individual units are combined and tested as a group
+	- the purpose is to test defects in interfaces and interactions between integrated components or systems
+### E2E
+- smallest subgroup of tests
+- should be flow of a function example: signing a user up
+- imitates real world use
 
 ## Types of Testing Frameworks
 
