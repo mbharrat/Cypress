@@ -76,10 +76,8 @@ Cypress is an automated test software that uses Mocha under the hood. This means
 ## Hooks, stubs, etc.
 
 
-| Selector | Recommended | Notes |
-	| ------------- |:-------------:| -----:|
-	| cy.get('button').click() | Never | Too generic |
-	| col 2 is  | centered |   $12 |
-	| zebra stripes | are neat      |    $1 |
+| test table | description |
+| --- | --- |
+| does this work | description test |
 
 
