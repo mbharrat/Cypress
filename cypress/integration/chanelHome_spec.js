@@ -33,7 +33,6 @@ describe('Make sure Homepage(US) is functioning correctly', ()=>{
 	//footer is correct
 	it('Is footer visible and rendered correctly in desktop', ()=>{
 		//@TODO
-		//network problems prevent testing
 		cy.get('.js-footer')
 		.should('be.visible');
 	});
